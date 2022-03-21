@@ -1,0 +1,17 @@
+body{
+    margin: 50px;
+    
+}
+
+.buttonholder{
+    margin: 20px;
+}
+
+#errorMessage{
+    display: none;
+}
+
+.result {
+    text-align: center; 
+    margin-top: 50px;
+}
