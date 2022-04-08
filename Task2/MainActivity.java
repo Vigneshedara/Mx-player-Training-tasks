@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 s1=e1.getText().toString();
                 s2=e2.getText().toString();
-                if(s1.contentEquals("haveela") && s2.contentEquals("123")){
+                if(s1.contentEquals("Vighnu") && s2.contentEquals("123")){
                     Toast.makeText(MainActivity.this, "Login", Toast.LENGTH_SHORT).show();
                     ts.speak("You are Logged in", TextToSpeech.QUEUE_FLUSH,null);
                 }else{
