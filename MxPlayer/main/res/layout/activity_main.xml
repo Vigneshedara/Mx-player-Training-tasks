@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="120dp"
+        android:text="MX Player"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#00BFFF"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="716dp"
+        android:layout_height="541dp">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="406dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/mxp" />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="406dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/ntr" />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="406dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rrr" />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="406dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/tarak" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="75dp" />
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="75dp"
+            android:text="ABOUT"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/contactus"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="75dp"
+            android:text="Contact US"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="4dp"
+            android:text="GALLERY"
+            android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>

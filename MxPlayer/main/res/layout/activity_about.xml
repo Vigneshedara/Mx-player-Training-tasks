@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/abouttitle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="20dp"
+                android:text="ABOUT US"
+                android:textColor="#0000FF"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardabout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/abouttitle"
+                android:layout_margin="10dp"
+                android:layout_marginTop="1dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp"
+                app:cardMaxElevation="1dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/ceo"
+                    android:layout_width="170dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ceo" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@id/cardabout"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="20dp"
+                android:text="KARAN BEDI,CEO"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="126dp"
+                android:layout_below="@id/txt1"
+                android:layout_marginLeft="20dp"
+                android:text="A successful and passionate businessman, Karan Bedi has made a strong presence in the Indian entertainment industry through his diverse experience in the digital world. Karan Bedi is a graduate of Stanford University in Economics. He is known for his success in transforming a utility video app into India’s second-largest OTT in a record eight months of its launch."
+                android:textSize="18dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="230dp"
+                android:layout_height="222dp"
+                android:layout_below="@id/abouttitle"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/vp"
+                    android:layout_width="172dp"
+                    android:layout_height="209dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/svp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardabout"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="20dp"
+                android:text="Siddarth Mantrani,Sr.Vice President"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_below="@id/txt1"
+                android:layout_marginLeft="20dp"
+                android:text="MX Player has appointed Siddharth Mantri as senior vice president – product. Mantri will be responsible for driving a differentiated product strategy for all its brand offerings across OTT video, music, games, and short form video platform, MX TakaTak."
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
